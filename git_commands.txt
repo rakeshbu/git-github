@@ -1,0 +1,17 @@
+git init
+git remote add origin "https://github.com/rakeshbu/git-github.git"
+git pull origin master
+git status (untracked files)
+git add (to index/staging area)
+git config user.name "Rakesh"
+git config user.email "Rakesh@gmail.com"
+git commit -m "some message"
+git commit -a -m "" (all files at once)
+git log
+git branch branch1
+git checkout branch1
+git commit -m "changes to branch1"
+git merge branch1 (in master branch)
+git commit -a -m "changes to test_file" (only for branch1)
+-- once staged/indexed, modified files can be committed directly 
+
